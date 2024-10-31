@@ -8,7 +8,7 @@ from collections import OrderedDict
 from base_caching import BaseCaching
 
 
-class FiFOCache(BaseCaching):
+class FIFOCache(BaseCaching):
     """ A class `FIFOCache` inherits from
         `BaseCaching` and is a caching system
     """
@@ -22,7 +22,7 @@ class FiFOCache(BaseCaching):
         """
         if key is None or item is None:
             return
-        if len(self.cache_data) > Basecaching.MAX_ITEMS:
+        if len(self.cache_data) > BaseCaching.MAX_ITEMS:
             first_key, _ = self.cache_data.popitem(last=False)
             print(f'DISCARD: {first_key}')
 
