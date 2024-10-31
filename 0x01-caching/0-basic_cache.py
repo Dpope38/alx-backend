@@ -8,7 +8,7 @@
 from base_caching import BaseCaching
 
 
-class basicCache(BaseCaching):
+class BasicCache(BaseCaching):
     """
         A class `BasicCache` inherits from `BaseCache`
         and is a caching systems
