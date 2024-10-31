@@ -8,7 +8,7 @@ from collections import OrderedDict
 from base_caching import BaseCaching
 
 
-class FiFOCache(BaseCaching):
+class FIFOCache(BaseCaching):
     """ A class `FIFOCache` inherits from
         `BaseCaching` and is a caching system
     """
